@@ -1,3 +1,7 @@
+body {
+      font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 .container {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -16,10 +20,31 @@
 
 .sidebar {
     grid-area: sidebar;
-    background-color: skyblue;
+    background-color: rgb(28, 177, 236);
+    color: white;
+    display: grid;
+    grid-template-rows: 70px repeat(2, 190px);
+    justify-content: center;
 }
 
+.sidebar .logo {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.sidebar .mid_content > div{
+ margin-top: 10px;
+}
+
+.sidebar .last_content > div{
+    margin-top: 10px;
+}
 .body {
     grid-area: body;
     background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
