@@ -169,6 +169,7 @@ button:first-child, button:last-child{
     border-left-width: 5px;
     border-left-style: solid;
     border-left-color: blue;
+    
 }
 
 .card1 {
@@ -422,4 +423,11 @@ font-size: 0.7rem;
  h5 {
     font-size: 0.75rem;
     font-weight: 800;
+ }
+
+ .sketch {
+    width: 400px;
+    height: 125%;
+    margin-top: -75px;
+    margin-left: -30px;
  }
