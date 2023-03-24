@@ -66,7 +66,7 @@ input {
     border-radius: 30px;
     width: 100%;
     min-width: 100px;
- 
+    background-color: lightgray;
     margin-right: 10px;
     border-style: none;
     border: 1px solid ;
@@ -201,7 +201,7 @@ button:first-child, button:last-child{
 .right_sidebar {
     background-color: rgb(192, 214, 255);
     display: grid;
-    grid-template-rows: 300px 1fr;
+    grid-template-rows: 347.5px 1fr;
     row-gap: 52px;
     width: 300px;
     margin-right: 20px;
@@ -227,7 +227,7 @@ button:first-child, button:last-child{
 
 .trend {
     position: absolute;
-    top: 455px;
+    top: 505px;
 }
 a {
     text-decoration: none;
@@ -348,8 +348,70 @@ svg.dashboard {
     right: 145px;
  }
 
- .secondlogo {
+ .second_header_row .secondlogo {
    width: 80px;
-    top: 33px;
-    left: 220px;
+   position: absolute;
+   top: 33px;
+   left: 216px;
+
+ }
+
+ .trending2 .secondlogo{
+    width: 80px;
+ }
+ svg.horse {
+    fill: pink;
+    width: 2rem;
+    position: relative;
+    right: -8px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 2px;
+ }
+
+ .trending p{
+font-size: 0.7rem;
+ }
+
+ .trending p:last-child {
+    margin-top: -8px;
+    background-color: pink;
+ }
+
+ .aj_logosidebar {
+    position: relative;
+    top: 100px;
+ }
+
+ .trending1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px;
+    background-color: orange;
+    align-items: center;
+ }
+
+ .trending2 {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px;
+ }
+
+ .aj_logosidebar2 {
+    position: relative;
+    top: -10px;
+    right: 15px;
+ }
+
+ .trending3, .trending4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px;
+    background-color: blue;
+    align-items: center;
+ }
+
+ .trending4 {
+    background-color: pink;
  }
