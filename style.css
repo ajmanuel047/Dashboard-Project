@@ -120,14 +120,15 @@ button:first-child, button:last-child{
     background-color: rgb(28, 177, 236);
     color: white;
     display: grid;
-    grid-template-rows: 70px repeat(2, 190px);
+    grid-template-rows: 70px repeat(2, 220px);
     justify-content: center;
     height: 860px;
 }
 
 .sidebar .logo {
     font-size: 1.5rem;
-    margin-top: 10px;
+   margin-top: -6px;
+    
 }
 
 .sidebar .mid_content > div{
@@ -219,8 +220,15 @@ button:first-child, button:last-child{
     font-size: 0.9rem;
 }
 
+.annouce {
+    position: absolute;
+    top: 105px;
+}
 
-
+.trend {
+    position: absolute;
+    top: 455px;
+}
 a {
     text-decoration: none;
     color: white;
@@ -233,3 +241,85 @@ a {
     font-size: 1.2rem;
 }
 
+svg.dashboard {
+    width: 2.4rem;
+    fill: white;
+    margin-left: -20px;
+    position: relative;
+    left: -8px;
+    top: 13px;
+  }
+
+ svg.sidebar_icon {
+    fill: white;
+    width: 20px;
+    position: relative;
+    left: -17px;
+    top: 4px;
+ }
+
+ svg.profile {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 4px;
+ }
+
+ svg.message {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 4px;
+ }
+
+ svg.history {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 3px;
+ }
+
+ svg.task {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 3px;
+    
+ }
+ svg.settings {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 4px;
+ }
+
+ svg.communities {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 3px;
+ }
+
+ svg.question {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 5px;
+ }
+
+ svg.security {
+    fill: white;
+    width: 1.1rem;
+    position: relative;
+    left: -15px;
+    top: 4px;
+ }
+
+ 
