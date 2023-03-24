@@ -165,7 +165,10 @@ button:first-child, button:last-child{
     margin-right: 10px;
     padding: 20px;
     font-size: 0.9rem;
-
+    border-radius: 8px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: blue;
 }
 
 .card1 {
@@ -414,4 +417,9 @@ font-size: 0.7rem;
 
  .trending4 {
     background-color: pink;
+ }
+
+ h5 {
+    font-size: 0.75rem;
+    font-weight: 800;
  }
