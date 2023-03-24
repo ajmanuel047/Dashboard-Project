@@ -169,6 +169,7 @@ button:first-child, button:last-child{
     border-left-width: 5px;
     border-left-style: solid;
     border-left-color: blue;
+    cursor: pointer;
     
 }
 
@@ -176,6 +177,12 @@ button:first-child, button:last-child{
     grid-area: card1;
     background-color: orange;
 }
+
+/* .card1:hover, .rock_paper_scissors:hover {
+    transform: scale(1.1);
+    width: 80%;
+   
+} */
 
 .card2 {
     grid-area: card2;
@@ -425,8 +432,8 @@ font-size: 0.7rem;
     font-weight: 800;
  }
 
- .sketch {
-    width: 400px;
+ .sketch, .rock_paper_scissors {
+    width: 114.8%;
     height: 125%;
     margin-top: -75px;
     margin-left: -30px;
