@@ -438,3 +438,12 @@ font-size: 0.7rem;
     margin-top: -75px;
     margin-left: -30px;
  }
+
+ .documentation, .bookclub, .calculator, .surveyform  {
+    width: 114.8%;
+    height: 125%;
+    margin-top: -20px;
+    margin-left: -30px;
+ }
+
+ 
