@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    background-color: orange;
+     border-bottom: 1px solid;
     height: 100px;
     display: grid;
     grid-template-rows: 1r 2fr;
@@ -32,7 +32,7 @@ body {
 }
 
 .first{
-    background-color: green;
+    
     display: grid;
     grid-template-columns: 60px 1fr;
     margin-left: 30px;
@@ -64,9 +64,9 @@ body {
 
 input {  
     border-radius: 30px;
-    width: 80%;
+    width: 100%;
     min-width: 100px;
-    background-color: blue;
+ 
     margin-right: 10px;
     border-style: none;
     border: 1px solid ;
@@ -82,14 +82,14 @@ input:focus {
 
 .second_header_row {
     display: grid;
-    background-color: pink;
+
     align-items: center;
     grid-template-columns: 4fr 1fr;
     margin-left:30px;
 }
 
 .second {
-    background-color: green;
+ 
     display: grid;
     grid-template-columns: 60px 1fr;
 }
@@ -103,7 +103,7 @@ button {
 }
 
 .btn {
-    background-color: gray;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: 30px;
@@ -127,7 +127,7 @@ button:first-child, button:last-child{
 
 .sidebar .logo {
     font-size: 1.5rem;
-   margin-top: -6px;
+   margin-top: -3px;
     
 }
 
@@ -246,16 +246,20 @@ svg.dashboard {
     fill: white;
     margin-left: -20px;
     position: relative;
-    left: -8px;
+    left: -5px;
     top: 13px;
   }
 
- svg.sidebar_icon {
+ svg.home {
     fill: white;
     width: 20px;
     position: relative;
-    left: -17px;
+    left: -13px;
     top: 4px;
+ }
+
+ .mid_content > div:first-child{
+     margin-left: -3px;
  }
 
  svg.profile {
@@ -322,4 +326,30 @@ svg.dashboard {
     top: 4px;
  }
 
- 
+ svg.search_icon {
+    
+    width: 1.7rem;
+    position: relative;
+    left: 10px;
+    top: 2px;
+ }
+
+ svg.bell_icon {
+    fill: white;
+    width: 1.6rem;
+    position: relative;
+    left: 70px;
+    top: 1px;
+ }
+
+ .aj_logo {
+    width: 100px;
+    position: absolute;
+    right: 145px;
+ }
+
+ .secondlogo {
+   width: 80px;
+    top: 33px;
+    left: 220px;
+ }
