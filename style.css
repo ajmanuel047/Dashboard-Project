@@ -117,6 +117,11 @@ button {
     
 }
 
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
 button:first-child, button:last-child{
      width: 95px;
 }
@@ -234,7 +239,7 @@ button:first-child, button:last-child{
     background-color: #80B1D3;
    padding: 30px;
    font-size: 0.7rem;
-   color: #4F4F4F;
+   color: #363636;
 }
 
 .trending {
@@ -370,17 +375,21 @@ svg.dashboard {
  }
 
  .aj_logo {
-    width: 100px;
+    width: 70px;
+    height: 67px;
     position: absolute;
-    right: 145px;
+    right: 150px;
+    top: -9px;
+   
  }
 
  .second_header_row .secondlogo {
    width: 80px;
+   height: 80px;
    position: absolute;
    top: 33px;
    left: 216px;
-
+   
  }
 
  .trending2 .secondlogo{
@@ -444,8 +453,9 @@ font-size: 0.7rem;
  }
 
  .trending1 p, .trending2 p, .trending3 p, .trending4 p {
-   
+   font-weight: 100;
     margin-left: -25px;
+    color: black;
  }
 
  h5 {
