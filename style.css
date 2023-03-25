@@ -1,7 +1,8 @@
 
 body {
       font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-   
+      background-color: #D3D3D3;
+      color: #002147;
     }
 
 .container {
@@ -22,6 +23,8 @@ body {
     height: 100px;
     display: grid;
     grid-template-rows: 1r 2fr;
+    background-color: #5e88a5;
+    color: #FFFFFF;
 }
 
 .first_header_row {
@@ -66,10 +69,11 @@ input {
     border-radius: 30px;
     width: 100%;
     min-width: 100px;
-    background-color: lightgray;
+    background-color: #d3e6ec;
     margin-right: 10px;
     border-style: none;
     border: 1px solid ;
+    color: #002147;
 }
 
 
@@ -100,6 +104,8 @@ button {
     border-style: none;
     border: 1px solid ;
     width: 90px;
+    background-color: white;
+    color: darkblue;
 }
 
 .btn {
@@ -117,22 +123,27 @@ button:first-child, button:last-child{
 
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(28, 177, 236);
-    color: white;
+    background-color: #094169;
+    
     display: grid;
     grid-template-rows: 70px repeat(2, 220px);
     justify-content: center;
     height: 860px;
 }
 
+.sidebar a {
+    color: #d1cbcb;
+}
 .sidebar .logo {
     font-size: 1.5rem;
    margin-top: -3px;
+   
     
 }
 
 .sidebar .mid_content > div{
  margin-top: 10px;
+ 
 }
 
 .sidebar .last_content > div{
@@ -205,7 +216,7 @@ button:first-child, button:last-child{
 }
 
 .card6 {
-    background-color: brown;
+  
     grid-area: card6;
 }
 
@@ -220,13 +231,15 @@ button:first-child, button:last-child{
 }
 
 .announcements {
-    background-color: rgb(190, 139, 72);
+    background-color: #80B1D3;
    padding: 30px;
    font-size: 0.7rem;
+   color: #4F4F4F;
 }
 
 .trending {
-    background-color: rgb(14, 148, 148);
+    background-color: #80B1D3;
+    color: #4F4F4F;
     padding: 30px;
     font-size: 0.9rem;
 }
@@ -261,6 +274,7 @@ svg.dashboard {
     top: 13px;
   }
 
+  
  svg.home {
     fill: white;
     width: 20px;
@@ -268,6 +282,8 @@ svg.dashboard {
     left: -13px;
     top: 4px;
  }
+
+ 
 
  .mid_content > div:first-child{
      margin-left: -3px;
@@ -371,11 +387,11 @@ svg.dashboard {
     width: 80px;
  }
  svg.horse {
-    fill: pink;
+   fill: #4F4F4F;;
     width: 2rem;
     position: relative;
     right: -8px;
-    background-color: aqua;
+    background-color: rgb(213, 221, 221);
     border-radius: 50%;
     padding: 2px;
  }
@@ -386,7 +402,11 @@ font-size: 0.7rem;
 
  .trending p:last-child {
     margin-top: -8px;
-    background-color: pink;
+   
+ }
+
+ .sidebar .logo {
+    color: #d1cbcb;;
  }
 
  .aj_logosidebar {
@@ -398,12 +418,12 @@ font-size: 0.7rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 50px;
-    background-color: orange;
+   
     align-items: center;
  }
 
  .trending2 {
-    background-color: green;
+
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 50px;
@@ -419,12 +439,13 @@ font-size: 0.7rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 50px;
-    background-color: blue;
+    
     align-items: center;
  }
 
- .trending4 {
-    background-color: pink;
+ .trending1 p, .trending2 p, .trending3 p, .trending4 p {
+   
+    margin-left: -25px;
  }
 
  h5 {
@@ -446,4 +467,10 @@ font-size: 0.7rem;
     margin-left: -30px;
  }
 
- 
+ .right_sidebarlogo1, .right_sidebarlogo2, .right_sidebarlogo3, .right_sidebarlogo4 {
+    width: 50%;
+ }
+
+ .right_sidebarlogo2 {
+    margin-top: 15px;
+ }
